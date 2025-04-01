@@ -1,0 +1,11 @@
+#speed-transactions-table_length, #speed-transactions-table_filter {
+    margin-bottom: 10px;
+}
+
+#speed-transactions-table_filter input {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    background: #ffffffc4;
+    color: black;
+}
