@@ -10,7 +10,7 @@ function badgeColor($status)
 {
     switch ($status) {
         case 'expired':
-            $badge = 'secondary';
+            $badge = 'primary';
             break;
 
         case 'paid':
@@ -18,19 +18,19 @@ function badgeColor($status)
             break;
 
         case 'unpaid':
-            $badge = 'danger';
-            break;
-
-        case 'cancelled':
             $badge = 'warning';
             break;
 
+        case 'cancelled':
+            $badge = 'danger';
+            break;
+
         case 'failed':
-            $badge = 'dark';
+            $badge = 'secondary';
             break;
 
         default:
-            $badge = 'primary';
+            $badge = 'secondary';
             break;
     }
     return $badge;
